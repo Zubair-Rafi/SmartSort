@@ -1,0 +1,313 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "books",
+      "name": "Books",
+      "description": "Electronic books, novels, ebooks, literature, and reading materials in PDF, EPUB, or MOBI format.",
+      "keywords": ["book", "novel", "ebook", "chapter", "author", "fiction", "nonfiction", "edition"],
+      "extensions": [".epub", ".mobi", ".azw", ".azw3", ".fb2"],
+      "destination": "Books",
+      "children": [
+        {
+          "id": "books-fiction",
+          "name": "Fiction",
+          "description": "Fictional literature, novels, and creative writing including fantasy, mystery, thriller, romance, and science fiction.",
+          "keywords": ["fiction", "novel", "story", "character", "plot", "narrative", "protagonist"],
+          "extensions": [],
+          "destination": "Books/Fiction",
+          "children": [
+            {
+              "id": "books-fiction-fantasy",
+              "name": "Fantasy",
+              "description": "Fantasy novels and fiction featuring magic, mythical creatures, epic quests, and imaginary worlds.",
+              "keywords": ["fantasy", "magic", "wizard", "dragon", "quest", "realm", "enchanted", "sorcery", "mythology", "elves", "dwarves"],
+              "extensions": [],
+              "destination": "Books/Fiction/Fantasy"
+            },
+            {
+              "id": "books-fiction-mystery",
+              "name": "Mystery",
+              "description": "Mystery and detective fiction featuring investigations, crime solving, and suspense.",
+              "keywords": ["mystery", "detective", "crime", "investigation", "murder", "clue", "suspect", "whodunit", "forensic"],
+              "extensions": [],
+              "destination": "Books/Fiction/Mystery"
+            },
+            {
+              "id": "books-fiction-thriller",
+              "name": "Thriller",
+              "description": "Thriller and suspense novels with high stakes, danger, intense action, and psychological tension.",
+              "keywords": ["thriller", "suspense", "action", "danger", "spy", "agent", "conspiracy", "chase", "psychological"],
+              "extensions": [],
+              "destination": "Books/Fiction/Thriller"
+            },
+            {
+              "id": "books-fiction-romance",
+              "name": "Romance",
+              "description": "Romance novels and love stories exploring relationships, emotions, and human connection.",
+              "keywords": ["romance", "love", "relationship", "heart", "passion", "couple", "wedding", "attraction"],
+              "extensions": [],
+              "destination": "Books/Fiction/Romance"
+            },
+            {
+              "id": "books-fiction-scifi",
+              "name": "Science Fiction",
+              "description": "Science fiction novels exploring future technology, space exploration, artificial intelligence, time travel, and speculative futures.",
+              "keywords": ["science fiction", "sci-fi", "space", "robot", "alien", "future", "dystopia", "cyberpunk", "time travel", "spaceship"],
+              "extensions": [],
+              "destination": "Books/Fiction/Science Fiction"
+            }
+          ]
+        },
+        {
+          "id": "books-nonfiction",
+          "name": "Non-Fiction",
+          "description": "Non-fiction books based on real events, facts, research, and informational content.",
+          "keywords": ["nonfiction", "biography", "history", "true story", "fact", "real"],
+          "extensions": [],
+          "destination": "Books/Non-Fiction",
+          "children": [
+            {
+              "id": "books-nonfiction-selfhelp",
+              "name": "Self-Help",
+              "description": "Self-help, personal development, productivity, habits, motivation, mindset, and wellbeing books.",
+              "keywords": ["self-help", "habits", "productivity", "motivation", "mindset", "success", "personal development", "growth", "atomic", "goal", "discipline"],
+              "extensions": [],
+              "destination": "Books/Non-Fiction/Self-Help"
+            },
+            {
+              "id": "books-nonfiction-biography",
+              "name": "Biography",
+              "description": "Biographies, autobiographies, memoirs, and personal life stories of real individuals.",
+              "keywords": ["biography", "autobiography", "memoir", "life story", "portrait", "personal history", "journey"],
+              "extensions": [],
+              "destination": "Books/Non-Fiction/Biography"
+            },
+            {
+              "id": "books-nonfiction-history",
+              "name": "History",
+              "description": "Historical books covering past events, civilizations, empires, wars, and historical figures.",
+              "keywords": ["history", "historical", "civilization", "empire", "war", "ancient", "century", "era", "dynasty", "revolution"],
+              "extensions": [],
+              "destination": "Books/Non-Fiction/History"
+            },
+            {
+              "id": "books-nonfiction-business",
+              "name": "Business",
+              "description": "Business, entrepreneurship, management, economics, finance, marketing, and leadership books.",
+              "keywords": ["business", "entrepreneurship", "management", "leadership", "finance", "economics", "startup", "marketing", "strategy", "investment"],
+              "extensions": [],
+              "destination": "Books/Non-Fiction/Business"
+            },
+            {
+              "id": "books-nonfiction-science",
+              "name": "Popular Science",
+              "description": "Popular science books explaining scientific concepts, discoveries, and natural phenomena for general audiences.",
+              "keywords": ["science", "biology", "evolution", "universe", "cosmos", "nature", "physics", "chemistry", "climate", "environment"],
+              "extensions": [],
+              "destination": "Books/Non-Fiction/Popular Science"
+            }
+          ]
+        },
+        {
+          "id": "books-academic",
+          "name": "Academic",
+          "description": "Academic and educational textbooks for university and school subjects.",
+          "keywords": ["textbook", "academic", "university", "education", "course", "subject", "study", "edition", "students"],
+          "extensions": [],
+          "destination": "Books/Academic",
+          "children": [
+            {
+              "id": "books-academic-cs",
+              "name": "Computer Science",
+              "description": "Computer science textbooks covering algorithms, data structures, programming, software engineering, computer architecture, operating systems, databases, and computer networks.",
+              "keywords": ["computer science", "algorithm", "programming", "software engineering", "operating system", "database", "network", "data structure", "compiler", "computation"],
+              "extensions": [],
+              "destination": "Books/Academic/Computer Science"
+            },
+            {
+              "id": "books-academic-math",
+              "name": "Mathematics",
+              "description": "Mathematics textbooks covering calculus, linear algebra, statistics, discrete mathematics, real analysis, and number theory.",
+              "keywords": ["mathematics", "calculus", "algebra", "statistics", "geometry", "theorem", "proof", "equation", "discrete", "matrix", "integral"],
+              "extensions": [],
+              "destination": "Books/Academic/Mathematics"
+            },
+            {
+              "id": "books-academic-physics",
+              "name": "Physics",
+              "description": "Physics textbooks covering classical mechanics, electromagnetism, quantum mechanics, thermodynamics, and relativity.",
+              "keywords": ["physics", "mechanics", "electromagnetism", "quantum", "thermodynamics", "relativity", "energy", "force", "wave", "particle"],
+              "extensions": [],
+              "destination": "Books/Academic/Physics"
+            },
+            {
+              "id": "books-academic-engineering",
+              "name": "Engineering",
+              "description": "Engineering textbooks covering electrical, mechanical, civil, chemical engineering, and systems design.",
+              "keywords": ["engineering", "circuit", "mechanical", "civil", "structural", "electrical", "systems", "design", "control"],
+              "extensions": [],
+              "destination": "Books/Academic/Engineering"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "academic",
+      "name": "Academic",
+      "description": "Academic course materials including lecture notes, assignments, and research papers.",
+      "keywords": ["lecture", "assignment", "research", "notes", "study", "exam", "homework", "university", "course"],
+      "extensions": [],
+      "destination": "Academic",
+      "children": [
+        {
+          "id": "academic-lecture-notes",
+          "name": "Lecture Notes",
+          "description": "Lecture notes, slides, class notes, and course materials from academic institutions.",
+          "keywords": ["lecture", "notes", "slides", "class", "course", "week", "chapter", "lec", "topic", "lesson"],
+          "extensions": [],
+          "destination": "Academic/Lecture Notes"
+        },
+        {
+          "id": "academic-assignments",
+          "name": "Assignments",
+          "description": "Student assignments, homework, lab reports, and coursework submissions.",
+          "keywords": ["assignment", "homework", "lab", "report", "submission", "due", "task", "exercise", "problem set"],
+          "extensions": [],
+          "destination": "Academic/Assignments"
+        },
+        {
+          "id": "academic-research",
+          "name": "Research Papers",
+          "description": "Academic research papers, journal articles, conference papers, and scientific publications with abstract, methodology, and results.",
+          "keywords": ["research", "paper", "abstract", "introduction", "methodology", "results", "conclusion", "journal", "arxiv", "doi", "bibliography", "references", "citation"],
+          "extensions": [],
+          "destination": "Academic/Research Papers"
+        },
+        {
+          "id": "academic-exams",
+          "name": "Exams",
+          "description": "Past exam papers, practice tests, quizzes, and mock exams.",
+          "keywords": ["exam", "test", "quiz", "midterm", "final", "mock", "practice", "past paper", "solution"],
+          "extensions": [],
+          "destination": "Academic/Exams"
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "name": "Documents",
+      "description": "General office documents, personal files, forms, letters, and professional documents.",
+      "keywords": ["document", "file", "form", "letter", "report", "official"],
+      "extensions": [".doc", ".docx", ".odt", ".rtf", ".txt", ".md", ".pdf"],
+      "destination": "Documents",
+      "children": [
+        {
+          "id": "documents-invoices",
+          "name": "Invoices",
+          "description": "Financial invoices, receipts, billing statements, purchase orders, and payment records.",
+          "keywords": ["invoice", "receipt", "billing", "payment", "total", "amount", "due", "tax", "GST", "VAT", "order", "purchase"],
+          "extensions": [],
+          "destination": "Documents/Invoices"
+        },
+        {
+          "id": "documents-certificates",
+          "name": "Certificates",
+          "description": "Certificates of completion, diplomas, awards, achievements, and official credentials.",
+          "keywords": ["certificate", "diploma", "award", "credential", "achievement", "certification", "completion", "recognition"],
+          "extensions": [],
+          "destination": "Documents/Certificates"
+        },
+        {
+          "id": "documents-reports",
+          "name": "Reports",
+          "description": "Business reports, project status reports, analytical documents, and executive summaries.",
+          "keywords": ["report", "analysis", "summary", "findings", "recommendation", "quarterly", "annual", "status", "progress"],
+          "extensions": [],
+          "destination": "Documents/Reports"
+        },
+        {
+          "id": "documents-resumes",
+          "name": "Resumes",
+          "description": "Resumes, CVs, curriculum vitae, cover letters, and job application documents.",
+          "keywords": ["resume", "cv", "curriculum vitae", "cover letter", "experience", "skills", "employment", "job"],
+          "extensions": [],
+          "destination": "Documents/Resumes"
+        },
+        {
+          "id": "documents-spreadsheets",
+          "name": "Spreadsheets",
+          "description": "Spreadsheets, data tables, financial models, and Excel or Calc documents.",
+          "keywords": ["spreadsheet", "excel", "table", "data", "sheet", "row", "column"],
+          "extensions": [".xls", ".xlsx", ".ods", ".csv"],
+          "destination": "Documents/Spreadsheets"
+        },
+        {
+          "id": "documents-presentations",
+          "name": "Presentations",
+          "description": "Presentation slides, slideshows, and visual presentations in PowerPoint or similar formats.",
+          "keywords": ["presentation", "slides", "slideshow", "powerpoint", "deck"],
+          "extensions": [".ppt", ".pptx", ".odp"],
+          "destination": "Documents/Presentations"
+        }
+      ]
+    },
+    {
+      "id": "images",
+      "name": "Images",
+      "description": "Image files, photographs, graphics, icons, and visual media.",
+      "keywords": ["image", "photo", "picture", "graphic", "photograph", "illustration"],
+      "extensions": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".svg", ".webp", ".heic", ".heif", ".tiff", ".tif", ".raw", ".cr2", ".nef", ".arw", ".ico"],
+      "destination": "Images"
+    },
+    {
+      "id": "videos",
+      "name": "Videos",
+      "description": "Video files, movies, recordings, and screen captures.",
+      "keywords": ["video", "movie", "film", "clip", "recording"],
+      "extensions": [".mp4", ".mkv", ".avi", ".mov", ".wmv", ".flv", ".webm", ".m4v", ".mpg", ".mpeg", ".3gp"],
+      "destination": "Videos"
+    },
+    {
+      "id": "audio",
+      "name": "Audio",
+      "description": "Audio files, music tracks, podcasts, and sound recordings.",
+      "keywords": ["audio", "music", "podcast", "sound", "track", "album"],
+      "extensions": [".mp3", ".wav", ".flac", ".aac", ".ogg", ".m4a", ".wma", ".opus", ".aiff"],
+      "destination": "Audio"
+    },
+    {
+      "id": "archives",
+      "name": "Archives",
+      "description": "Compressed archive files, disk images, and bundled file collections.",
+      "keywords": ["archive", "compressed", "zip", "backup"],
+      "extensions": [".zip", ".rar", ".7z", ".tar", ".gz", ".bz2", ".xz", ".zst", ".lz4", ".iso", ".img"],
+      "destination": "Archives"
+    },
+    {
+      "id": "installers",
+      "name": "Installers",
+      "description": "Software installation packages and executable setup files.",
+      "keywords": ["installer", "setup", "install", "package", "software"],
+      "extensions": [".exe", ".msi", ".deb", ".rpm", ".pkg", ".dmg", ".appimage", ".snap", ".flatpak"],
+      "destination": "Installers"
+    },
+    {
+      "id": "code",
+      "name": "Code",
+      "description": "Source code files, scripts, configuration files, and programming projects.",
+      "keywords": ["code", "script", "program", "source", "function", "class", "module"],
+      "extensions": [".py", ".js", ".jsx", ".ts", ".tsx", ".cpp", ".cc", ".cxx", ".c", ".h", ".hpp", ".java", ".cs", ".go", ".rs", ".php", ".rb", ".swift", ".kt", ".html", ".css", ".scss", ".sass", ".sql", ".sh", ".bash", ".zsh", ".ps1", ".bat", ".r", ".scala", ".dart", ".lua", ".pl", ".toml", ".yaml", ".yml", ".json", ".xml"],
+      "destination": "Code"
+    },
+    {
+      "id": "others",
+      "name": "Others",
+      "description": "Files that do not match any recognized category.",
+      "keywords": [],
+      "extensions": [],
+      "destination": "Others"
+    }
+  ]
+}
